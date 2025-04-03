@@ -380,3 +380,38 @@ footer p {
     font-weight: 500;
     font-size: 1.2em;
 }
+
+/* RESPONSIVE*/
+
+@media (max-width: 768px) { 
+
+    .menu-links{
+        display: none;
+    }
+    #hero-imagen h1 {
+        font-size: 2.2em;
+    }
+    #hero-imagen p {
+        font-size: 1.3em;
+    }
+    .servicio-linea{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .servicio-linea.imagen-derecha{
+        flex-direction: column;
+        text-align: center;
+    }
+    .servicio-contenido{
+        padding: 1em;
+        align-items: center;
+    }
+    .servicio-linea .btn{
+        align-self: center;
+        margin-top: 1em;
+    }
+    .grid-testimonios {
+        grid-template-columns: 1fr;
+    }
+ }

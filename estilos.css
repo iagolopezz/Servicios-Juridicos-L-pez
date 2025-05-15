@@ -336,33 +336,52 @@ body {
 }
 
 .testimonio {
-    background: #d9d9d9;
-    border-radius: 0.5em;
-    padding: 1.875em;
-    transition: transform 0.3s ease;
+  background: #d9d9d9;
+  border-radius: 0.5em;
+  padding: 1.875em;
+  transition: transform 0.3s ease;
+  overflow: hidden;
 }
 
 .testimonio:hover {
-    transform: translateY(-0.3125em);
+  transform: translateY(-0.3125em);
 }
 
 .testimonio p {
-    font-family: 'Inter';
-    font-style: italic;
-    font-weight: 300;
-    font-size: 1.1em;
-    color: #333;
-    line-height: 1.6;
-    margin-bottom: 1.25em;
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 300;
+  font-size: 1.1em;
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 1.25em;
 }
 
 .testimonio strong {
-    display: block;
-    text-align: right;
-    color: #003366;
-    font-style: normal;
-    font-weight: 600;
+  display: block;
+  text-align: right;
+  color: #003366;
+  font-style: normal;
+  font-weight: 600;
 }
+
+.testimonio img {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  float: left;
+  margin-right: 1em;
+}
+
+.testimonio .nombre {
+  display: block;
+  margin-top: 1em;
+  font-weight: 600;
+  color: #003366;
+  text-align: right;
+}
+
 
 /* Footer */
 footer {
